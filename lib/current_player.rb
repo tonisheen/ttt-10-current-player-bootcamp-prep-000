@@ -5,5 +5,6 @@ def turn_count(board)
     if slot_occupied
       turns += 1
     end
+  end
   turns
 end
