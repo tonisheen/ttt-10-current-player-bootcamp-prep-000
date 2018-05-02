@@ -1,0 +1,9 @@
+def turn_count(board)
+  turns = 0
+  board.each do |slot|
+    slot_occupied = (slot == 'X' || slot == 'O')
+    if slot_occupied
+      turns += 1
+    end
+  turns
+end
